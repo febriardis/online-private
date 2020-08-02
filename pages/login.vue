@@ -8,7 +8,7 @@
         Masuk dengan akun yang telah dibuat.
       </h5>
     </div>
-    <div class="card pt-4 pb-4" style="min-height: calc(100vh - 60px);">
+    <div class="card pt-4 pb-4" style="min-height: calc(90vh - 10px);">
       <div class="container-content">
         <div class="form-group">
           <label for="identity" class="color-grey font-weight-300">Email/Nomor Ponsel</label>

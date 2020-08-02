@@ -14,7 +14,7 @@
                 <a @click="current_type=2" class="nav-items" :class="{'active':current_type===2}" style="border-radius:0 10px 0 0">Daftar Sebagai Pengajar</a>
             </div>
         </div>
-        <div class="card pt-4 pb-4" style="min-height: calc(100vh - 60px);">
+        <div class="card pt-4 pb-4" style="min-height: calc(90vh - 10px);">
             <div class="container-content">
                 <div class="form-group">
                     <label for="identity" class="color-grey font-weight-300">Nama Lengkap</label>
