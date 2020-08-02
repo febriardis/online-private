@@ -1,0 +1,50 @@
+@import "./_color.scss";
+@import "./_utilities.scss";
+@import "./_fonts.scss";
+@import "../assets/icons/style.css";
+
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background: #FAFAFA;
+}
+
+.container-center {
+    width: 480px;
+    margin: 0 auto;    
+    background: #F2F8FF;
+    border-top: 1px solid transparent;
+}
+
+@media (max-width: 768px) {
+    .container-center {
+        width: 100%;
+    }
+}
+
+.ms-icon {    
+    font-size: 16px;
+    top: 0.1em;
+    margin: 0;
+    vertical-align: text-bottom;
+}
+
+.header {
+    background-color: #13C9FF;
+    border-radius: 0px 0px 20px 20px;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: inherit;
+}
+
+.container-content{
+    margin: 0 35px;
+}
+
+.card {
+    background: #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+}
